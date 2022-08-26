@@ -55,6 +55,10 @@ main input {
 main img {
     width: 20px;
     cursor: pointer;
+    position: relative;
+    top: -36px;
+    right: -224px;
+    margin-bottom: -20px;
 }
 
 main a {
