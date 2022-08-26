@@ -67,6 +67,10 @@ main a {
     left: 110px;
 }
 
+main a:hover {
+    text-decoration: underline;
+}
+
 main button {
     background-color: black;
     color: white;
