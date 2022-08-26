@@ -53,9 +53,13 @@ main input {
     padding-right: 40px;
 }
 
-main img {
+main img  {
     width: 20px;
     cursor: pointer;
+    position: relative;
+    top: -36px;
+    right: -224px;
+    margin-bottom: -20px;
 }
 
 main button {
