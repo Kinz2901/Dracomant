@@ -51,6 +51,13 @@ main input {
     text-indent: 6px;
 }
 
+main a {
+    color: black;
+    text-decoration: none;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
 main button {
     background-color: black;
     color: white;
