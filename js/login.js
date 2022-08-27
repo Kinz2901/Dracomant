@@ -14,10 +14,14 @@ function clickOlho() {
 
 function mostarSenha() {
     senha.setAttribute("type", "text")
-    olho.setAttribute("src", "olho-aberto.png")
+    olho.setAttribute("src", "../imagens/olho-aberto.png")
 }
 
 function ocultarSenha() {
     senha.setAttribute("type", "password")
-    olho.setAttribute("src", "olho-fechado.png")
+    olho.setAttribute("src", "../imagens/olho-fechado.png")
+}
+
+function confirmar() {
+    
 }
