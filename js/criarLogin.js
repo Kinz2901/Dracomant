@@ -17,12 +17,12 @@ function clickOlho() {
 
 function mostarSenha() {
     senha.setAttribute("type", "text")
-    olho.setAttribute("src", "olho-aberto.png")
+    olho.setAttribute("src", "../imagens/olho-aberto.png")
 }
 
 function ocultarSenha() {
     senha.setAttribute("type", "password")
-    olho.setAttribute("src", "olho-fechado.png")
+    olho.setAttribute("src", "../imagens/olho-fechado.png")
 }
 
 function clickOlho2() {
@@ -37,10 +37,10 @@ function clickOlho2() {
 
 function mostarSenha2() {
     senha2.setAttribute("type", "text")
-    olho2.setAttribute("src", "olho-aberto.png")
+    olho2.setAttribute("src", "../imagens/olho-aberto.png")
 }
 
 function ocultarSenha2() {
     senha2.setAttribute("type", "password")
-    olho2.setAttribute("src", "olho-fechado.png")
+    olho2.setAttribute("src", "../imagens/olho-fechado.png")
 }
