@@ -1,7 +1,7 @@
 const email = document.querySelector("input#email").value
 const senha = document.querySelector("input.senha")
-const senha2 = document.querySelector("input.senha2")
 const olho = document.querySelector("img.olho")
+const senha2 = document.querySelector("input.senha2")
 const olho2 = document.querySelector("img.olho2")
 
  
@@ -26,7 +26,7 @@ function ocultarSenha() {
 }
 
 function clickOlho2() {
-    let inputTypeIsPassword = senha.type == "password"
+    let inputTypeIsPassword = senha2.type == "password"
 
     if (inputTypeIsPassword) {
         mostarSenha2()
@@ -41,5 +41,6 @@ function mostarSenha2() {
 }
 
 function ocultarSenha2() {
-    
+    senha2.setAttribute("type", "password")
+    olho2.setAttribute("src", "olho-fechado.png")
 }
