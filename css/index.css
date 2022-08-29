@@ -6,12 +6,7 @@
 }
 
 :root {
-    --cor01: #479EE6;
-    --cor02: #027CE0;
-    --cor03: #0260AD;
-    --cor04: #013661;
-    --cor05: #0023AD;
-    --cor06: #FF2B1F;
+    --cor01: #FF2B1F;
 
     --font-cinzel: 'Cinzel', cursive;
 }
@@ -28,17 +23,13 @@ body {
 }
 
 header {
-    background-color: var(--cor06);
+    background-color: var(--cor01);
     padding: 22px 0px;
 }
 
-header img {
-    width: 40px;
-}
-
 .conteudo {
-    display: table;
-    margin: auto;
+    display: inline-block;
+    margin-left: 26px;
 }
 
 .logoRed {
@@ -53,4 +44,9 @@ header img {
     font-family: var(--font-cinzel);
     display: table-cell;
     float: left;
+}
+
+.logo-insta {
+    width: 20px;
+    margin: 8px;
 }
