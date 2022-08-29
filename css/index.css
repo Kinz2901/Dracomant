@@ -21,6 +21,11 @@
     padding: 0px;
 }
 
+body {
+    background-image: url("../imagens/shenlong-background.jpg");
+    background-size: 100%;
+}
+
 header {
     background-color: var(--cor06);
     padding: 22px 0px;
