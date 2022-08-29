@@ -18,9 +18,11 @@
 
 body {
     height: 100vh;
+    background-color: var(--cor01);
     background-image: url("../imagens/shenlong-background.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header {
