@@ -24,6 +24,7 @@
 body {
     background-image: url("../imagens/shenlong-background.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 header {
