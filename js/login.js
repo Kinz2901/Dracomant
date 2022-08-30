@@ -1,4 +1,4 @@
-const email = document.querySelector("input#email").value
+const email = document.getElementById("email")
 const senha = document.querySelector("input#senha")
 const olho = document.querySelector("img#olho")
  

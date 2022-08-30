@@ -23,13 +23,16 @@ header h1 {
     color: white;
     font-family: var(--font-cinzel), cursive;
     font-size: 100px;
-    margin: 10% 0px 80px 0px;
+    margin: 10% 0px 0px 0px;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     background-color: white; 
     width: 250px;
     margin: auto;
@@ -50,6 +53,7 @@ main input {
     margin-bottom: 10px;
     text-indent: 6px;
     padding-right: 40px;
+    outline: 0;
 }
 
 main img {
@@ -78,7 +82,6 @@ main button:hover {
 main a {
     color: black;
     text-decoration: none;
-    text-align: end;
     margin-top: 10px;
     width: 140px;
     position: relative;
