@@ -22,8 +22,8 @@ header h1 {
     text-align: center;
     color: white;
     font-family: var(--font-cinzel), cursive;
-    font-size: 100px;
-    margin: 10% 0px 0px 0px;
+    font-size: 8vh;
+    margin: 50px 0px 0px 0px;
 }
 
 main {
