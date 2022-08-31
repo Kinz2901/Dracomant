@@ -7,6 +7,7 @@
 
 :root {
     --cor01: #FF2B1F;
+    --cor02: #DB0F0B;
 
     --font-cinzel: 'Cinzel', cursive;
 }
@@ -23,7 +24,7 @@ body {
 
 header {
     background-color: var(--cor01);
-    padding: 22px 0px;
+    padding: 16px 0px;
 }
 
 .conteudo {
@@ -48,4 +49,40 @@ header {
 .logo-insta {
     width: 20px;
     margin: 8px;
+    display: table-cell;
+    float: left;
+}
+
+nav {
+    position: relative;
+    top: 9px;
+    display: table-cell;
+    float: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 800px;
+}
+
+a.infos {
+    color: white;
+    text-decoration: none;
+    padding: 26px 10px;
+}
+
+a.infos:hover {
+    background-color: var(--cor02);
+}
+
+a.login {
+    color: var(--cor01);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+a.login:hover {
+    background-color: #d8d8d8;
 }
