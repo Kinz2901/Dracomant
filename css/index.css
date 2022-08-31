@@ -61,6 +61,7 @@ nav {
     float: left;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1120px;
 }
 
 a.infos {
@@ -81,6 +82,7 @@ a.login {
     padding: 10px;
     border-radius: 8px;
     background-color: white;
+    margin: 10px;
 }
 
 a.login:hover {
