@@ -9,6 +9,9 @@
     --font-cinzel: 'Cinzel', cursive;
 
     --cor01: #FF2B1F;
+    --cor02: #4F4F4F;
+    --cor03: #363636;
+    --cor04: rgb(202, 1, 1);
 }
 
 * {
@@ -17,7 +20,11 @@
 }
 
 body {
-    background: black;
+    background-color: black;
+    background-image: url(../imagens/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -28,13 +35,12 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: white; 
+    background-color: var(--cor03); 
     width: 250px;
     margin: auto;
     padding: 10px 20px 20px 20px;
     border-radius: 16px;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.342);
 }
 
 main h1 {
@@ -47,16 +53,19 @@ main h1 {
 main h2 {
     padding: 0px 0px 20px 0px;
     text-align: center;
+    color: white;
 }
 
 main input {
-    border: 1px solid gray ;
+    border: 1px solid rgb(128, 128, 128) ;
     border-radius: 5px ;
     height: 30px;
     margin-bottom: 10px;
     text-indent: 6px;
     padding-right: 40px;
     outline: 0;
+    background-color: var(--cor02);
+    color: white;
 }
 
 main img  {
@@ -71,11 +80,11 @@ main img  {
 }
 
 main img:hover {
-    background-color: gainsboro;
+    background-color: #363636;
 }
 
 main button {
-    background-color: rgb(202, 1, 1);
+    background-color: var(--cor04);
     color: white;
     border: 10px;
     position: relative;
@@ -98,6 +107,7 @@ main a {
     width: 140px;
     position: relative;
     left: 110px;
+    color: white;
 }
 
 main a:hover {
