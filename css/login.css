@@ -41,6 +41,7 @@ main {
     padding: 10px 20px 20px 20px;
     border-radius: 16px;
     flex-wrap: wrap;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.425);
 }
 
 main h1 {
@@ -80,7 +81,7 @@ main img  {
 }
 
 main img:hover {
-    background-color: #363636;
+    background-color: #363636b2;
 }
 
 main button {
