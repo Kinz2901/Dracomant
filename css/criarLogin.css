@@ -20,10 +20,11 @@
 }
 
 body {
+    height: 100vh;
     background: black;
-    background-image: url(../imagens/wallpaperflare.com_wallpaper.jpg);
-    background-repeat: no-repeat;
+    background-image: url("../imagens/wallpaperflare.com_wallpaper.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 main h1 {
