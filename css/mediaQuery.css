@@ -6,6 +6,10 @@
         height: 160px;
     }
 
+    marca {
+        width: 300px;
+    }
+
     marca.logoenome {
         display: block;
         margin: auto;
