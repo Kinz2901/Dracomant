@@ -3,18 +3,8 @@
 @media screen and (min-width:0px) and (max-width: 768px) {
     body {}
 
-    .nome {
-
-    }
-
-    span.material-symbols-outlined {
-        display: block;
-        display: inline;
-        color: white;
-        position: relative;
-        top: 10px;
-        cursor: pointer;
-        padding-left: 10px;
+    header {
+        height: 120px;
     }
        
     span.material-symbols-outlined:hover{
@@ -23,7 +13,8 @@
 
     a.login{
         display: block;
-        display: inline;
+        margin-top: -10px;
     }
+
     a {display: none;}
 }
