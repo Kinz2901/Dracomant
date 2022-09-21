@@ -7,7 +7,7 @@
     }
 
     marca {
-        width: 300px;
+        display: block;
     }
 
     marca.logoenome {
