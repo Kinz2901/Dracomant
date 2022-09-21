@@ -6,7 +6,11 @@
     header {
         height: 120px;
     }
-       
+    
+    .logoRed {
+        margin-left: -10px;
+    }
+
     span.material-symbols-outlined:hover{
         color: #d8d8d8;
     }

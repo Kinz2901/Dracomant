@@ -31,6 +31,11 @@ header {
 span.material-symbols-outlined {
     display: none;
 }
+
+div {
+    display: inline;
+}
+
 .conteudo {
     display: inline-block;
     margin-top: 18px;
