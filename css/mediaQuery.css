@@ -15,10 +15,16 @@
 
     login {
         display: block;
-        margin-top: 40px;
+        margin-top: 50px;
         text-align: center;
-        position: relative;
+        position: static;
     }
 
+    login a.login {
+        background-color: white;
+        color: var(--cor01);
+    }
+
+    
 infos {display: none;}
 }
