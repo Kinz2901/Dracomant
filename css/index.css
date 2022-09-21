@@ -18,7 +18,7 @@
 }
 
 body {
-    background: var(--cor01) url("../imagens/shenlong-background.jpg") center center no-repeat fixed;
+    background: var(--cor01) url("../imagens/wallpaperflare.com_wallpaper.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -27,6 +27,9 @@ header {
     padding: 16px 0px;
 }
 
+span.material-symbols-outlined {
+    display: none;
+}
 .conteudo {
     display: inline-block;
     margin-left: 26px;
