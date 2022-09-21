@@ -15,12 +15,12 @@
 
     login {
         display: block;
-        margin-top: 50px;
+        margin-top: 46px;
         text-align: center;
-        position: static;
     }
 
     login a.login {
+        position: sticky;
         background-color: white;
         color: var(--cor01);
     }
