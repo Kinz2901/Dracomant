@@ -7,16 +7,18 @@
     }
 
     marca.logoenome {
+        display: block;
         margin: auto;
         position: relative;
         left: -20px;
     }
 
-    .logored,.nome,div.logoenome {
-        margin: 0;
+    login {
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
     }
 
-
-
-    a {display: none;}
+infos {display: none;}
 }
