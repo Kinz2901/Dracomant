@@ -3,17 +3,20 @@
 @media screen and (min-width:0px) and (max-width: 768px) {
 
     header {
-        height: 120px;
+        height: 160px;
     }
 
-    span.material-symbols-outlined:hover{
-        color: #d8d8d8;
+    marca.logoenome {
+        margin: auto;
+        position: relative;
+        left: -20px;
     }
 
-    a.login{
-        display: block;
-        margin-top: -10px;
+    .logored,.nome,div.logoenome {
+        margin: 0;
     }
+
+
 
     a {display: none;}
 }

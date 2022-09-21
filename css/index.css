@@ -27,48 +27,30 @@ header {
     width: 100vw;
     height: 80px;
 }
-
-span.material-symbols-outlined {
-    display: none;
+marca.logoenome {
+    position: relative;
+    top: 18px;
+    left: 20px;
+    display: block;
+    width: 260px;
+    height: 40px;
 }
 
-div {
-    display: inline;
-}
 
-.conteudo {
-    display: inline-block;
-    margin-top: 18px;
-    margin-left: 26px;
-}
-
-.logoRed {
-    display: table-cell;
-    float: left;
-}
-
-.nome {
+marca h1.nome {
+    margin-top: 25px;
+    position: relative;
+    top: -8px;
     color: white;
     text-align: center;
     font-family: var(--font-cinzel);
-    display: table-cell;
-    float: left;
-    margin: 0px 20px 0px 10px;
-}
-
-.logo-insta {
-    width: 20px;
-    margin: 8px;
-    display: table-cell;
-    float: left;
+    display: inline;
 }
 
 nav {
+    display: none;
     position: relative;
     right: auto;
-    top: 9px;
-    display: table-cell;
-    float: left;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
