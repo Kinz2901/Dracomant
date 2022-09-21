@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 91vw;
+        border-radius: 0px;
+    }
+
+    img {
+        position: relative;
+        right: 90%;
+    }
+}
