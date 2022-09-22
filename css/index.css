@@ -8,6 +8,8 @@
 :root {
     --cor01: #FF2B1F;
     --cor02: #DB0F0B;
+    --cor03: #4F4F4F;
+    --cor04: #363636;
 
     --font-cinzel: 'Cinzel', cursive;
 }
@@ -18,7 +20,7 @@
 }
 
 body {
-    background: var(--cor01) url("../imagens/wallpaperflare.com_wallpaper.jpg") center center no-repeat fixed;
+    background: var(--cor04) center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -61,12 +63,11 @@ botoes.menu-login {
 menu a.infos {
     color: white;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 28px 12px;
 }
 
 menu a.infos:hover {
     background-color: var(--cor02);
-    border-radius: 10px;
 }
 
 login a.botão-login {

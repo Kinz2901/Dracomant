@@ -2,35 +2,7 @@
 
 @media screen and (min-width:100px) and (max-width: 768px) {
 
-    header {
-        height: 160px;
-    }
-
-    marca {
-        display: block;
-    }
-
-    marca img.logo {
-        background-color: aqua;
-    }
-
-    marca h1.nome {
-        margin: auto;
-        background-color: aqua;
-    }
-
-    login {
-        display: block;
-        margin-top: 46px;
-        text-align: center;
-    }
-
-    login a.login {
-        position: sticky;
-        background-color: white;
-        color: var(--cor01);
-    }
-
-    
-infos {display: none;}
+.insfos {
+    display: none;
 }
+}   
