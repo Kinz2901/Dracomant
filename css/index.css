@@ -22,73 +22,56 @@ body {
     background-size: cover;
 }
 
-header {
+
+banner {
     background-color: var(--cor01);
+    display: flex;
     width: 100vw;
     height: 80px;
+    align-items: center;
 }
-marca.logoenome {
-    position: relative;
-    top: 18px;
-    left: 20px;
-    display: inline;
-    width: 260px;
+
+marca.logo-nome {
+    background-color: var(--cor01);
+    display: flex;
+    width: 50%;
     height: 40px;
 }
 
+img.logo {
+    margin-left: 20px;
+}
 
-marca h1.nome {
-    margin-top: 25px;
-    position: relative;
-    top: -8px;
+h1.nome {
+    margin-left: 6px;
     color: white;
-    text-align: center;
     font-family: var(--font-cinzel);
-    display: inline;
 }
 
-infos {
-    display: inline;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 40px;
-}
-
-infos a.infos {
-    position: relative;
-    top: 6px;
-    color: white;
-    text-decoration: none;
-    padding: 29px 16px;
-}
-
-
-
-infos a.infos:hover {
-    background-color: var(--cor02);
-}
-
-login {
-    display: inline-block;
-    position: relative;
-    top: 6px;
-}
-
-login a.login {
-    color: white;
-    text-decoration: none;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    border-radius: 8px;
+botoes.menu-login {
     background-color: var(--cor01);
-    border: solid 2px white;
-    position: fixed;
-    top: 15px;
-    right: 30px;
+    display: flex;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    font: 1.4em Arial, Helvetica, sans-serif;;
+    justify-content: flex-end;
 }
 
-a.login:hover {
-    color: var(--cor01);
-    background-color: white;
+menu a.infos {
+    color: white;
+    text-decoration: none;
 }
+
+login a.botão-login {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+

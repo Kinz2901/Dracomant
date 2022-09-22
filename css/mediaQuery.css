@@ -10,11 +10,13 @@
         display: block;
     }
 
-    marca.logoenome {
-        display: block;
+    marca img.logo {
+        background-color: aqua;
+    }
+
+    marca h1.nome {
         margin: auto;
-        position: relative;
-        left: -20px;
+        background-color: aqua;
     }
 
     login {
