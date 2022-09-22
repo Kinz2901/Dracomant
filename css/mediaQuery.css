@@ -2,7 +2,38 @@
 
 @media screen and (min-width:100px) and (max-width: 768px) {
 
-.insfos {
+banner {
+    height: 160px;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+marca.logo-nome {
+    width: 100vw;
+    height: 50vh;
+    margin: auto;
+}
+
+h1.nome {
+    position: relative;
+    right: 40px;
+    margin: auto;
+}
+
+img.logo {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 2px;
+}
+
+botoes.menu-login  {
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+}
+
+menu a.infos {
     display: none;
 }
 }   

@@ -42,10 +42,10 @@ marca.logo-nome {
 
 img.logo {
     margin-left: 20px;
+    margin-right: 6px;
 }
 
 h1.nome {
-    margin-left: 6px;
     color: white;
     font-family: var(--font-cinzel);
 }
