@@ -61,6 +61,12 @@ botoes.menu-login {
 menu a.infos {
     color: white;
     text-decoration: none;
+    padding: 8px 12px;
+}
+
+menu a.infos:hover {
+    background-color: var(--cor02);
+    border-radius: 10px;
 }
 
 login a.botão-login {
@@ -73,5 +79,9 @@ login a.botão-login {
     border-radius: 10px;
 }
 
+login a.botão-login:hover {
+    background-color: white;
+    color: var(--cor01);
+}
 
 
