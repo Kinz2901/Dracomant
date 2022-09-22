@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cinzel';
+    src:url('../fonts/Cinzel-Bold.otf') format('opentype');
+}
+
+:root {
+    --cor01: #FF2B1F;
+    --cor02: #DB0F0B;
+    --cor03: #4F4F4F;
+    --cor04: #363636;
+
+    --font-cinzel: 'Cinzel', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--cor04) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+banner {
+    background-color: var(--cor01);
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+}
+
+marca.logo-nome {
+    background-color: var(--cor01);
+    display: flex;
+    width: 36%;
+    height: 40px;
+}
+
+img.logo {
+    margin-left: 20px;
+    margin-right: 6px;
+}
+
+h1.nome {
+    color: white;
+    font-family: var(--font-cinzel);
+}
+
+botoes.menu-login {
+    background-color: var(--cor01);
+    display: flex;
+    width: 64%;
+    height: 40px;
+    align-items: center;
+    font: 1.4em Arial, Helvetica, sans-serif;;
+    justify-content: flex-end;
+}
+
+menu a.infos {
+    color: white;
+    text-decoration: none;
+    padding: 28px 12px;
+}
+
+menu a.infos:hover {
+    background-color: var(--cor02);
+}
+
+login a.botão-login {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+login a.botão-login:hover {
+    background-color: white;
+    color: var(--cor01);
+}
