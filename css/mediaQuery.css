@@ -43,7 +43,6 @@ botoes.menu-login  {
     bottom: 10px;
 }
 
-
 menu a.infos {
     display: none;
 }
@@ -51,7 +50,9 @@ menu a.infos {
 burguer {
     display: flex;
     width: 14vw;
+    height: 42px;
     justify-content: end;
+    margin-top: 20px;
 }
 
 span.material-symbols-outlined {
@@ -61,5 +62,10 @@ span.material-symbols-outlined {
     cursor: pointer;
     margin-right: 10px;
     padding: 10px;
+    border-radius: 100px;
+}
+
+span.material-symbols-outlined:hover {
+    background-color: #DB0F0B;
 }
 }   
