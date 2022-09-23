@@ -14,17 +14,26 @@ marca.logo-nome {
     margin: auto;
 }
 
-h1.nome {
-    position: relative;
-    right: 40px;
-    margin: auto;
+foto {
+    display: flex;
+    align-items: center;
+    width: 24vw;
 }
 
 img.logo {
     width: 40px;
     height: 40px;
-    position: relative;
-    left: 2px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+titulo {
+    display: flex;
+    width: 52vw;
+}
+
+h1.nome {
+    margin: auto;
 }
 
 botoes.menu-login  {
@@ -35,5 +44,19 @@ botoes.menu-login  {
 
 menu a.infos {
     display: none;
+}
+
+burguer {
+    display: flex;
+}
+
+span.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    width: 24vw;
+    position: relative;
+    right: 20px;
 }
 }   

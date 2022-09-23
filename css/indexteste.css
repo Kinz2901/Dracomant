@@ -84,3 +84,7 @@ login a.botão-login:hover {
     background-color: white;
     color: var(--cor01);
 }
+
+span.material-symbols-outlined {
+    display: none;
+}

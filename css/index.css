@@ -36,7 +36,7 @@ banner {
 marca.logo-nome {
     background-color: var(--cor01);
     display: flex;
-    width: 50%;
+    width: 36%;
     height: 40px;
 }
 
@@ -53,7 +53,7 @@ h1.nome {
 botoes.menu-login {
     background-color: var(--cor01);
     display: flex;
-    width: 50%;
+    width: 64%;
     height: 40px;
     align-items: center;
     font: 1.4em Arial, Helvetica, sans-serif;;
@@ -83,6 +83,11 @@ login a.botão-login {
 login a.botão-login:hover {
     background-color: white;
     color: var(--cor01);
+    background-color: bisque;
+}
+
+span.material-symbols-outlined {
+    display: none;
 }
 
 
