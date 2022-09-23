@@ -17,7 +17,7 @@ marca.logo-nome {
 foto {
     display: flex;
     align-items: center;
-    width: 24vw;
+    width: 14vw;
 }
 
 img.logo {
@@ -29,7 +29,7 @@ img.logo {
 
 titulo {
     display: flex;
-    width: 52vw;
+    width: 72vw;
 }
 
 h1.nome {
@@ -48,16 +48,16 @@ menu a.infos {
 
 burguer {
     display: flex;
+    width: 14vw;
+    justify-content: end;
 }
 
 span.material-symbols-outlined {
     display: flex;
     align-items: center;
-    justify-content: end;
     color: white;
-    width: 24vw;
-    position: relative;
-    right: 20px;
     cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
 }
 }   
