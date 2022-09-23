@@ -14,10 +14,10 @@
     <main id="apagar">
             <h1>DRACOMANT</h1>
             <h2>Criar login</h2>
-            <input id="email" type="email" placeholder="E-mail:" required>
+            <input id="email" type="email" placeholder="E-mail:" required maxlength="30">
             <input class="senha" type="password" placeholder="Senha:" required>
             <img class="olho" src="../imagens/olho-fechado.png" onclick="clickOlho()">
-            <input class="senha2" type="password" placeholder="Confirmar Senha:">
+            <input class="senha2" type="password" placeholder="Confirmar Senha:" required minlength="8">
             <img class="olho2" src="../imagens/olho-fechado.png" onclick="clickOlho2()">
             <button class="confirmar" onclick="confirmar()">Confirmar</button>
             <a href="login.html">Já possuo login</a>

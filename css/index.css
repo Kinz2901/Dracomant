@@ -83,7 +83,6 @@ login a.botão-login {
 login a.botão-login:hover {
     background-color: white;
     color: var(--cor01);
-    background-color: bisque;
 }
 
 span.material-symbols-outlined {
