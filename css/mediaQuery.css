@@ -5,7 +5,6 @@
 banner {
     height: 160px;
     flex-direction: column;
-    background-color: aqua;
 }
 
 marca.logo-nome {
@@ -40,7 +39,10 @@ botoes.menu-login  {
     width: 100vw;
     height: 50vh;
     justify-content: center;
+    position: relative;
+    bottom: 10px;
 }
+
 
 menu a.infos {
     display: none;
