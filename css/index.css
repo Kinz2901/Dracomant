@@ -6,87 +6,106 @@
 }
 
 :root {
-    --cor01: #FF2B1F;
-    --cor02: #DB0F0B;
-    --cor03: #4F4F4F;
-    --cor04: #363636;
-
     --font-cinzel: 'Cinzel', cursive;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background: var(--cor04) center center no-repeat fixed;
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+}
+
+header logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 30%;
+    height: 58px;
+}
+
+header logo img {
+    width: 50px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header logo h1 {
+    height: 30px;
+    font-family: var(--font-cinzel);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    margin-left: 6px;
+}
+
+header menus {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 58px;
+    justify-content: center;
+}
+
+header menus a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: 500;
+}
+
+header menus a:hover {
+    color: gray;
+}
+
+header login {
+    display: flex;
+    height: 58px;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+    margin-right: 40px;
+}
+
+header login a {
+    color: rgb(56, 56, 56);
+    background-color: white;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 100px;
+    justify-content: end;
+    text-decoration: none;
+}
+
+header login a:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* Header termina aqui */
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+cartaz {
+    width: 100vw;
+    height: 500px;
+    background-image: url(../imagens/programando2);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-banner {
-    background-color: var(--cor01);
-    display: flex;
-    width: 100vw;
-    height: 80px;
-    align-items: center;
-}
 
-marca.logo-nome {
-    background-color: var(--cor01);
-    display: flex;
-    width: 36%;
-    height: 40px;
-}
-
-img.logo {
-    margin-left: 20px;
-    margin-right: 6px;
-}
-
-h1.nome {
-    color: white;
-    font-family: var(--font-cinzel);
-}
-
-botoes.menu-login {
-    background-color: var(--cor01);
-    display: flex;
-    width: 64%;
-    height: 40px;
-    align-items: center;
-    font: 1.4em Arial, Helvetica, sans-serif;;
-    justify-content: flex-end;
-}
-
-menu a.infos {
-    color: white;
-    text-decoration: none;
-    padding: 28px 12px;
-}
-
-menu a.infos:hover {
-    background-color: var(--cor02);
-}
-
-login a.botão-login {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 8px 12px;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-login a.botão-login:hover {
-    background-color: white;
-    color: var(--cor01);
-}
-
-span.material-symbols-outlined {
-    display: none;
-}
 
 
