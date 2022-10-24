@@ -93,16 +93,24 @@ header login a:hover {
 /* Header termina aqui */
 
 main {
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
 }
 
-cartaz {
+main div.banner {
     width: 100vw;
     height: 500px;
     background-image: url(../imagens/programando2);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+}
+
+main div.banner h1 {
+    width: 100vw;
+    color: white;
+    background-color: brown;
+    /* background-color: rgba(0, 0, 0, 0.37); */
 }
 
 
