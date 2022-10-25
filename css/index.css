@@ -62,11 +62,6 @@ header menus a {
     padding-bottom: 58px;
 }
 
-header menus a#home-aberto {
-    border-bottom: 1px solid white;
-    color: white;
-}
-
 header menus a:hover {
     color: white;
 }
@@ -81,8 +76,8 @@ header login {
 }
 
 header login a {
-    color: rgb(56, 56, 56);
-    background-color: white;
+    color: white;
+    background-color: gray;
     padding: 8px 20px;
     margin: 10px;
     border-radius: 100px;
@@ -91,7 +86,12 @@ header login a {
 }
 
 header login a:hover {
-    background-color: gray;
+    background-color: white;
+    color: gray;
+}
+
+#aberto {
+    border-bottom: 1px solid white;
     color: white;
 }
 
@@ -105,7 +105,7 @@ main {
 main div.banner {
     width: 100vw;
     height: 500px;
-    background-image: url(../imagens/programando2);
+    background-image: url(../imagens/programando3.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -126,6 +126,20 @@ main div.banner frase {
 main div.banner frase h1 {
     font-size: 40px;
     margin: 0px 0px 130px 0px;
+}
+
+div {
+    width: 100vw;
+    height: 500px;
+    background-color: brown;
+}
+
+#contato {
+    background-color: blue;
+}
+
+#ajuda {
+    background-color: chocolate;
 }
 
 
