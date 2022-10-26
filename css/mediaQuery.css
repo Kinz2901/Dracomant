@@ -38,13 +38,11 @@
 
     }
 
+    /* Header termina aqui */
+
     main div.banner {
         background-image: url(../imagens/pexels-mikhail-fesenko-9553909.jpg);
-        height: 800px;
-
+        height: 600px;
     }
-
-
-  
 }
    
