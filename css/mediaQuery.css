@@ -9,24 +9,22 @@
 
     header logo {
         width: 100vw;
-        background-color: aqua;
         margin: 0px;
     }
 
     header logo img {
-        padding-left: 20px;
+        margin-left: 20px;
     }
 
     header logo h1 {
-        background-color: aqua;
         margin: auto;
         position: relative;
-        right: 50px;
+        right: 6px;    
     }
 
     span.material-symbols-outlined {
         display: block;
-
+        margin-right: 20px;
     }
 
     menus a {
@@ -35,9 +33,9 @@
 
     header login {
         width: 100vw;
-        background-color: aquamarine;
         margin: 0px;
         justify-content: end;
+
     }
 
     main div.banner {
