@@ -47,6 +47,10 @@ header logo h1 {
     margin-left: 6px;
 }
 
+span.material-symbols-outlined {
+    display: none;
+}
+
 header menus {
     display: flex;
     width: 40%;
