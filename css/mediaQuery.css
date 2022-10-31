@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:100px) and (max-width: 768px) {
+@media screen and (min-width:100px) and (max-width: 840px) {
 
     header {
         height: 100px;
@@ -60,6 +60,10 @@
     main div.banner {
         background-image: url(../imagens/pexels-mikhail-fesenko-9553909.jpg);
         height: 600px;
+    }
+
+    main div.banner frase h1 {
+        font-size: 20px;
     }
 }
    
