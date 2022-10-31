@@ -171,20 +171,20 @@ main div.templates h1 {
 div.cartazes {
     justify-content: center;
     display: flex;
-    padding-bottom: 62px;
+    padding-bottom: 162px;
 }
 
 div.cartazes div.cartaz {
-    width: 20%;
-    height: 100%;
+    width: 356px;
+    height: 600px;
     background-color: white;
-    border: solid 1px black;
     margin: 0px 20px 62px 20px;
 }   
 
 div.dSeta {
     display: flex;
     width: 20%;
+    height: 600px;
     align-items: center;
 }
 

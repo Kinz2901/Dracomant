@@ -79,5 +79,16 @@
     div.dSeta {
         display: none;
     }
+
+    div.cartazes {
+        align-items: center;
+        flex-direction: column;
+        height: 2000px;
+    }
+
+    div.cartazes div.cartaz {
+        width: 90%;
+        height: 700px;
+    }
 }
    
