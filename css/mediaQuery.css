@@ -45,7 +45,14 @@
         justify-content: center;
         border-radius: 0px;
         text-align: center;
-        border: solid 2px rgb(37, 37, 37);
+    }
+
+    header login a#borda1{
+        border-right: solid 2px rgb(37, 37, 37);
+    }
+
+    header login a#borda2 {
+        border-left: solid 2px rgb(37, 37, 37);
     }
 
     /* Header termina aqui */
