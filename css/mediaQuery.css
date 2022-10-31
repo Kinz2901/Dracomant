@@ -35,7 +35,6 @@
         width: 100vw;
         padding: 0px;
         margin: 0px;
-        background-color: aqua;
         justify-content: center;
     }
 
@@ -61,6 +60,10 @@
     main div.banner {
         background-image: url(../imagens/pexels-mikhail-fesenko-9553909.jpg);
         height: 600px;
+    }
+    main div.banner frase {
+        align-items: end;
+        justify-content: center;
     }
 
     main div.banner frase h1 {
