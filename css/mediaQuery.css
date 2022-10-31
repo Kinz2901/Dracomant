@@ -3,7 +3,7 @@
 @media screen and (min-width:100px) and (max-width: 768px) {
 
     header {
-        height: 112px;
+        height: 100px;
         flex-direction: column;
     }
 
@@ -33,14 +33,19 @@
 
     header login {
         width: 100vw;
+        padding: 0px;
         margin: 0px;
         background-color: aqua;
         justify-content: center;
     }
 
     header login a {
+        width: 50vw;
+        margin: 0px;
         justify-content: center;
         border-radius: 0px;
+        text-align: center;
+        border: solid 2px rgb(37, 37, 37);
     }
 
     /* Header termina aqui */
