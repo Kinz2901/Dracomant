@@ -34,8 +34,13 @@
     header login {
         width: 100vw;
         margin: 0px;
-        justify-content: end;
+        background-color: aqua;
+        justify-content: center;
+    }
 
+    header login a {
+        justify-content: center;
+        border-radius: 0px;
     }
 
     /* Header termina aqui */
