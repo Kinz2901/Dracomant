@@ -8,7 +8,7 @@
     }
 
     header logo {
-        width: 100vw;
+        width: 100%;
         margin: 0px;
     }
 
@@ -25,6 +25,12 @@
     span.material-symbols-outlined {
         display: block;
         margin-right: 20px;
+        border-radius: 100px;
+        padding: 5px;
+    }
+
+    span.material-symbols-outlined:hover {
+        background-color: rgb(77, 77, 77);
     }
 
     menus a {
@@ -32,14 +38,14 @@
     }
 
     header login {
-        width: 100vw;
+        width: 100%;
         padding: 0px;
         margin: 0px;
         justify-content: center;
     }
 
     header login a {
-        width: 50vw;
+        width: 50%;
         margin: 0px;
         justify-content: center;
         border-radius: 0px;
@@ -68,6 +74,10 @@
 
     main div.banner frase h1 {
         font-size: 20px;
+    }
+
+    div.dSeta {
+        display: none;
     }
 }
    
