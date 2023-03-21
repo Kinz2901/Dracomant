@@ -5,53 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/logo-teste.png" type="image/x-icon">
-    <title>Dracomant.com</title>
     <link rel="stylesheet" href="../css/index.css" media="all">
-    <link rel="stylesheet" href="../css/mediaQuery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Dracomant.com</title>
 </head>
 <body>
-    <header>
-        <logo>
-            <img src="../imagens/logo-teste.png" alt="">
-            <h1>Dracomant</h1>
-            <span class="material-symbols-outlined">menu</span>
-        </logo>
-
-        <menus>
-            <a href="#" id="aberto">Home</a>
-            <a href="curiosidades.html">Curiosidades</a>
-            <a href="contato.html">Contato</a>
-            <a href="ajuda.html">Ajuda</a>
-        </menus>
-
-        <login>
-            <a id="borda1" href="../html/criarLogin.html">Criar Login</a>
-            <a id="borda2" href="../html/login.html">Fazer Login</a>
-        </login>
+    <header class="blocos header">
+        <div class="icone-nome">
+            <img class="logo" src="../imagens/logo-teste.png" alt="">
+            <h1 class="titulo">Dracomant</h1>
+        </div>
+        <div class="menus">
+            <a id="aberto" href="#">Home</a>
+            <a class="fechado" href="./curiosidades.html">Curiosidades</a>
+            <a class="fechado" href="./contato.html">Contato</a>
+            <a class="fechado" href="./ajuda.html">Ajuda</a>
+        </div>
+        <div class="botoes-login">
+            <button>Login</button>
+            <button>Criar Login</button>
+        </div>
     </header>
 
-    <main>
-        <div class="banner">
-            <frase>
-                <h1 class="frase">Equipe especializada em programação</h1>
-            </frase>
+    <main class="blocos main">
+        <div class="fundo-img">
+            <p>Equipe especializada em programação</p>
         </div>
+        <h2>Templates</h2>
         <div class="templates">
-            <h1>Templates</h1>
+            <a href="https://www.instagram.com/guillins15/" target="_blank">
+                <div class="bloco-template t1"></div>
+            </a>
+            <a href="" target="_blank">
+                <div class="bloco-template t2"></div>
+            </a>
+            <a href="" target="_blank">
+                <div class="bloco-template t3"></div>
+            </a>
+            <a href="" target="_blank">
+                <div class="bloco-template t4"></div>
+            </a>
         </div>
-        <div class="cartazes">
-            <div id="esquerda" class="dSeta">
-                <span class="material-symbols-outlined">arrow_back_ios_new</span>
-            </div>
-            <div class="cartaz"></div>
-            <div class="cartaz"></div>
-            <div class="cartaz"></div>
-            <div class="dSeta"><span id="seta" class="material-symbols-outlined">
-            arrow_forward_ios
-            </span>
-        </div>
-
     </main>
+    <footer class="blocos footer">
+        <p>Dracomant</p>
+    </footer>
 </body>
 </html>
