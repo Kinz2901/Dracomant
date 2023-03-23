@@ -190,19 +190,19 @@ h2 {
 }
 
 .t1 {
-    background-image: url(../imagens/template\ 1.png);
+    background-image: url(../imagens/template-1.png);
 }
 
 .t2 {
-    background-image: url(../imagens/template\ 2.png);
+    background-image: url(../imagens/template-2.png);
 }
 
 .t3 {
-    background-image: url(../imagens/template\ 3.png);
+    background-image: url(../imagens/template-3.png);
 }
 
 .t4 {
-    background-image: url(../imagens/template\ 4.png);
+    background-image: url(../imagens/template-4.png);
 }
 
 /* Aqui começa o Footer */ 
@@ -311,6 +311,9 @@ footer {
         border-radius: 0px;
         border-bottom-left-radius: 12px;
         border-top-left-radius: 12px;
+    }
+    .t1 {
+        background-image: url(../imagens/template-1-mobile.jpeg);
     }
 }
 
