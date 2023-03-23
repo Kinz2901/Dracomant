@@ -171,6 +171,8 @@ h2 {
 .comentario-templates {
     padding: 30px;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .comentario-templates h1 {
@@ -203,6 +205,56 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100px;
+}
+
+@media (max-width: 1730px) {
+
+    .templates {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-comentario-templates {
+        width: 1240px;
+        flex-direction: row-reverse;
+        border-radius: 12px;
+    }
+
+    .img-templates {
+        width: 872px;
+        height: 440px;
+        border-radius: 0px;
+        border-bottom-right-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .comentario-templates {
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .img-comentario-templates {
+        width: 840px;
+        flex-direction: row-reverse;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+
+    .img-templates {
+        border-radius: 0px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+
+    }
+
+    .fundo-img {
+        height: 800px;
+    }
 }
 
 
