@@ -5,33 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/logo-teste.png" type="image/x-icon">
-    <title>Dracomant.com</title>
     <link rel="stylesheet" href="../css/index.css" media="all">
-    <link rel="stylesheet" href="../css/mediaQuery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Dracomant.com</title>
 </head>
 <body>
-    <header>
-        <logo>
-            <img src="../imagens/logo-teste.png" alt="">
-            <h1>Dracomant</h1>
-        </logo>
-
-        <menus>
-            <a href="index.html">Home</a>
-            <a href="curiosidades.html" >Curiosidades</a>
-            <a href="contato.html">Contato</a>
-            <a href="#" id="aberto">Ajuda</a>
-        </menus>
-
-        <login>
-            <a href="../html/criarLogin.html">Criar Login</a>
-            <a href="../html/login.html">Fazer Login</a>
-        </login>
+    <header class="blocos header">
+        <div class="icone-nome">
+            <a href="./index.html"><img class="logo" src="../imagens/logo-teste.png" alt=""></a>
+            <h1 class="titulo">Dracomant</h1>
+        </div>
+        <div class="menus">
+            <a class="fechado" href="./index.html">Home</a>
+            <a class="fechado" href="./curiosidades.html">Curiosidades</a>
+            <a class="fechado" href="./contato.html">Contato</a>
+            <a id="aberto" href="#">Ajuda</a>
+        </div>
+        <div class="botoes-login">
+            <button>Login</button>
+            <button>Criar Login</button>
+        </div>
     </header>
 
-    <main>
-        <div id="ajuda"></div>
+    <main class="blocos main">
+        
     </main>
+    <footer class="blocos footer">
+        <p>Dracomant &copy; 2023</p>
+    </footer>
 </body>
 </html>
