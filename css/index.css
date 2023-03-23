@@ -269,6 +269,7 @@ footer {
     .fundo-img {
         background-image: url(../imagens/fundo-programando-mobile.jpg);
         justify-content: center;
+        height: 630px;
     }
 
     .div-atendimento {
@@ -288,7 +289,11 @@ footer {
 @media (max-width: 540px) {
     header {
         flex-direction: column;
-        height: 160px;
+        height: 120px;
+    }
+
+    .fundo-img {
+        height: 630px;
     }
 
     .icone-nome {
@@ -296,9 +301,30 @@ footer {
         margin-bottom: 10px;
     }
 
+    .div-atendimento {
+        margin: 20px;
+        padding: 20px;
+    }
+
     .botoes-login {
         margin: auto;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .div-atendimento {
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    
+}
+
+@media (max-width: 389px) {
+    .fundo-img {
+        height: 660px;
     }
 }
 
