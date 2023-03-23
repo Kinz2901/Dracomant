@@ -268,10 +268,37 @@ footer {
 
     .fundo-img {
         background-image: url(../imagens/fundo-programando-mobile.jpg);
+        justify-content: center;
     }
 
     .div-atendimento {
-        max-width: 400px;
+        width: auto;
+        margin: 50px;
+    }
+
+    .div-atendimento h3 {
+        font-size: 2.2em;
+    }
+
+    .img-comentario-templates {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        flex-direction: column;
+        height: 160px;
+    }
+
+    .icone-nome {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .botoes-login {
+        margin: auto;
+        margin-top: 10px;
     }
 }
 
