@@ -169,6 +169,7 @@ h2 {
 }
 
 .img-templates {
+    /* 1920 % 2,3 && 1080 % 2,3 */
     width: 834px;
     height: 469px;
     background-repeat: no-repeat;
@@ -233,6 +234,7 @@ footer {
     }
 
     .img-templates {
+        /* 1920 % 2,2 && 1080 % 2,2 */
         width: 872px;
         height: 440px;
         border-radius: 0px;
@@ -298,11 +300,21 @@ footer {
     }
 
     .img-comentario-templates {
-        display: none;
+        width: 620px;
+        flex-direction: row;
+    }
+
+    .img-templates {
+        /* 1200 % 2 && 720 % 2 */
+        width: 360px;
+        height: 600px;
+        border-radius: 0px;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 650px) {
     header {
         flex-direction: column;
         height: 120px;
