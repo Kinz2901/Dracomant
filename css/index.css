@@ -131,7 +131,7 @@ main {
 }
 
 .botao-agendamento:hover {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(68, 68, 68);
 }
 
 h2 {
@@ -145,18 +145,36 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     flex-wrap: wrap;
     padding: 40px 0px;
     gap: 40px;
 }
 
-.bloco-template {
-    min-width: 834px;
-    min-height: 469px;
+.img-comentario-templates {
+    width: 834px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+.img-templates {
+    width: 834px;
+    height: 469px;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid gray;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.comentario-templates {
+    padding: 30px;
+    color: white;
+}
+
+.comentario-templates h1 {
+    padding-bottom: 20px;
 }
 
 .t1 {
