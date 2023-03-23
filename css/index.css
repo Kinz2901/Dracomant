@@ -239,7 +239,7 @@ footer {
 @media (max-width: 1260px) {
 
     .img-comentario-templates {
-        width: 840px;
+        width: 872px;
         flex-direction: row-reverse;
         border-radius: 12px;
         flex-direction: column;
