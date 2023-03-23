@@ -346,6 +346,17 @@ footer {
     .botoes-login button {
         width: 100%;
     }
+
+    .img-comentario-templates {
+        width: 360px;
+        flex-direction: column;
+    }
+
+    .img-templates {
+        border-radius: 0px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
 }
 
 @media (max-width: 460px) {
