@@ -94,6 +94,7 @@ button {
     color: white;
     padding: 12px;
     cursor: pointer;
+    border: var(--bg-color);
 }
 
 form p {
