@@ -128,7 +128,7 @@ main {
     padding-bottom: 30px;
 }
 
-.botao-agendamento {
+.botao_agendamento {
     padding: 12px;
     border-radius: 8px;
     color: white;
@@ -139,7 +139,7 @@ main {
     transition: 0.2s;
 }
 
-.botao-agendamento:hover {
+.botao_agendamento:hover {
     background-color: rgb(68, 68, 68);
 }
 
