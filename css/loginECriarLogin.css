@@ -95,6 +95,12 @@ button {
     padding: 12px;
     cursor: pointer;
     border: var(--bg-color);
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(73, 73, 73);
 }
 
 form p {
