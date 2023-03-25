@@ -1,46 +1,51 @@
-const email = document.querySelector("input#email").value
-const senha = document.querySelector("input.senha")
-const olho = document.querySelector("img.olho")
-const senha2 = document.querySelector("input.senha2")
-const olho2 = document.querySelector("img.olho2")
+const senhaOculta = document.querySelector('#senhaOculta')
+const senhaVisivel = document.querySelector('#senhaVisivel')
+const senha = document.querySelector('.senha')
 
- 
-function clickOlho() {
-    let inputTypeIsPassword = senha.type == "password"
+const confirmSenhaOculta = document.querySelector('#confirmSenhaOculta')
+const confirmSenhaVisivel = document.querySelector('#confirmSenhaVisivel')
+const confirmSenha = document.querySelector('.confirmSenha')
 
-    if (inputTypeIsPassword) {
-        mostarSenha()
-    } else {
-        ocultarSenha()
+const oculto = document.querySelector('.oculto')
+const aparente = document.querySelector('.aparente')
+
+senhaOculta.addEventListener('click', function () {
+    let tipoDaSenha = senha.type == "password"
+
+    if (tipoDaSenha) {
+        senha.type = 'text'
+        senhaOculta.style.display = 'none'
+        senhaVisivel.style.display = 'block'
     }
-}
+})
 
-function mostarSenha() {
-    senha.setAttribute("type", "text")
-    olho.setAttribute("src", "../imagens/olho-aberto.png")
-}
+senhaVisivel.addEventListener('click', function () {
+    let tipoDaSenha = senha.type == "text"
 
-function ocultarSenha() {
-    senha.setAttribute("type", "password")
-    olho.setAttribute("src", "../imagens/olho-fechado.png")
-}
-
-function clickOlho2() {
-    let inputTypeIsPassword = senha2.type == "password"
-
-    if (inputTypeIsPassword) {
-        mostarSenha2()
-    } else {
-        ocultarSenha2()
+    if (tipoDaSenha) {
+        senha.type = 'password'
+        senhaVisivel.style.display = 'none'
+        senhaOculta.style.display = 'block'
     }
-}
+})
 
-function mostarSenha2() {
-    senha2.setAttribute("type", "text")
-    olho2.setAttribute("src", "../imagens/olho-aberto.png")
-}
+confirmSenhaOculta.addEventListener('click', function () {
+    let tipoDaSenha = confirmSenha.type == "password"
 
-function ocultarSenha2() {
-    senha2.setAttribute("type", "password")
-    olho2.setAttribute("src", "../imagens/olho-fechado.png")
-}
+    if (tipoDaSenha) {
+        confirmSenha.type = 'text'
+        confirmSenhaOculta.style.display = 'none'
+        confirmSenhaVisivel.style.display = 'block'
+    }
+})
+
+confirmSenhaVisivel.addEventListener('click', function () {
+    let tipoDaSenha = confirmSenha.type == "text"
+
+    if (tipoDaSenha) {
+        confirmSenha.type = 'password'
+        confirmSenhaVisivel.style.display = 'none'
+        confirmSenhaOculta.style.display = 'block'
+    }
+})
+

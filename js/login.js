@@ -1,27 +1,24 @@
-const email = document.getElementById("email")
-const senha = document.querySelector("input#senha")
-const olho = document.querySelector("img#olho")
- 
-function clickOlho() {
-    let inputTypeIsPassword = senha.type == "password"
+const senhaOculta = document.querySelector('#senhaOculta')
+const senhaVisivel = document.querySelector('#senhaVisivel')
+const senha = document.querySelector('.senha')
 
-    if (inputTypeIsPassword) {
-        mostarSenha()
-    } else {
-        ocultarSenha()
+senhaOculta.addEventListener('click', function () {
+    let tipoDaSenha = senha.type == "password"
+
+    if (tipoDaSenha) {
+        senha.type = 'text'
+        senhaOculta.style.display = 'none'
+        senhaVisivel.style.display = 'block'
     }
-}
+})
 
-function mostarSenha() {
-    senha.setAttribute("type", "text")
-    olho.setAttribute("src", "../imagens/olho-aberto.png")
-}
+senhaVisivel.addEventListener('click', function () {
+    let tipoDaSenha = senha.type == "text"
 
-function ocultarSenha() {
-    senha.setAttribute("type", "password")
-    olho.setAttribute("src", "../imagens/olho-fechado.png")
-}
-
-function confirmar() {
-    
-}
+    if (tipoDaSenha) {
+        senha.type = 'password'
+        senhaVisivel.style.display = 'none'
+        senhaOculta.style.display = 'block'
+    }
+})
+ 

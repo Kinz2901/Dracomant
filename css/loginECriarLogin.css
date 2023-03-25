@@ -85,16 +85,8 @@ form {
     display: none;
 }
 
-#senhaOculta {
-    
-}
-
 #confirmSenhaVisivel {
     display: none;
-}
-
-#confirmSenhaOculta {
-    
 }
 
 button {
