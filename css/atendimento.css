@@ -90,7 +90,10 @@ header {
 
 main {
     display: flex;
-    background-color: rgb(19, 114, 192);
+    background-image: url(../imagens/fundo-noite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
     flex: 1 2 100px;
     justify-content: center;
     align-items: center;
