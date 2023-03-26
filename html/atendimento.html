@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo-teste.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/atendimanto.css">
+    <title>Atendimento</title>
+</head>
+<body>      
+    <header class="blocos header">
+        <div class="icone-nome">
+            <a href="#"><img class="logo" src="../imagens/logo-teste.png" alt=""></a>
+            <h1 class="titulo">Dracomant</h1>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="menus">
+            <a class="fechado" href="./index.html">Home</a>
+            <a class="fechado" href="./curiosidades.html">Curiosidades</a>
+            <a class="fechado" href="./contato.html">Contato</a>
+            <a class="fechado" href="./ajuda.html">Ajuda</a>
+        </div>
+        <div class="botoes-login">
+            <button id="btn_login">Login</button>
+            <button id="btn_criar_login">Criar Login</button>
+        </div>
+    </header>
+    <main>
+        <div class="bloco">
+            <h2>Atendimento prévio</h2>
+            <label for="dominio">Nome do site</label>
+            <input type="text">
+            <label for="sites">Escolha qual tipo de site mais se adequa a suas preferências.</label>
+            <select name="sites" id="sites">
+                <option value="">Sites</option>
+                <option value="">Blog</option>
+                <option value="">Portifólio</option>
+                <option value="">Loja virtual</option>
+            </select>
+            <label for="sim">Já possui um domínio?</label>
+            <div>
+                <input type="radio" name="dominio" id="sim_dominio" class="sim"> <label for="sim_dominio">Sim</label>
+                <input type="radio" name="dominio" id="nao_dominio" class="nao"> <label for="nao_dominio">Não</label>
+            </div>
+            <label for="sim">Já possui um modelo de layout para seu site?</label>
+            <div>
+                <input type="radio" name="layout" id="sim_layout" class="sim"> <label for="sim_layout">Sim</label>
+                <input type="radio" name="layout" id="nao_layout" class="nao"> <label for="nao_layout">Não</label>
+            </div>
+            <button>ENVIAR</button>
+        </div>
+    </main>
+    <footer class="blocos footer">
+        <p>Dracomant &copy; 2023</p>
+    </footer>
+</body>
+</html>

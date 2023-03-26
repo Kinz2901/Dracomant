@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cinzel';
+    src:url('../fonts/Cinzel-Bold.otf') format('opentype');
+}
+
+:root {
+    --bg-color: rgb(37, 37, 37);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocos {
+    background-color: var(--bg-color);
+}
+
+/* Aqui começa o Header */
+
+header {
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 34px;
+}
+
+.icone-nome {
+    display: flex;
+    gap: 6px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.titulo {
+    font-family: Cinzel;
+}
+
+.icone-nome span {
+    display: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.menus a {
+    color: white;
+    text-decoration: none;
+    padding: 41px 10px;
+}
+
+.fechado:hover {
+    color: gray;
+}
+
+.botoes-login {
+    display: flex;
+    gap: 16px;
+}
+
+.botoes-login button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    cursor:pointer;
+}
+
+.botoes-login button:hover {
+    box-shadow: 0 0 40px 40px white inset;
+    color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    background-color: azure;
+    flex: 1 2 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    margin: 20px 0px 10px 0px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+}
+
+.sim {
+    cursor: pointer;
+}
+
+.nao {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: var(--bg-color);
+    margin: 20px 0px;
+}
+
+footer {
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
