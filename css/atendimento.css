@@ -90,7 +90,7 @@ header {
 
 main {
     display: flex;
-    background-color: azure;
+    background-color: rgb(19, 114, 192);
     flex: 1 2 100px;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ input {
     cursor: pointer;
 }
 
-button {
+.enviar {
     padding: 12px;
     border-radius: 10px;
     border: none;

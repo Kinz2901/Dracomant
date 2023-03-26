@@ -14,16 +14,86 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(19, 114, 192);
     color: white;
 }
 
-main {
-    height: 100vh;
+.blocos {
+    background-color: var(--bg-color);
+}
+
+/* Aqui começa o Header */
+
+header {
+    color: white;
+    height: 100px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 34px;
+}
+
+.icone-nome {
+    display: flex;
+    gap: 6px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.titulo {
+    font-family: Cinzel;
+}
+
+.icone-nome span {
+    display: none;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.menus a {
+    color: white;
+    text-decoration: none;
+    padding: 41px 10px;
+}
+
+.fechado:hover {
+    color: gray;
+}
+
+.botoes-login {
+    display: flex;
+    gap: 16px;
+}
+
+.botoes-login button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    cursor:pointer;
+}
+
+.botoes-login button:hover {
+    box-shadow: 0 0 40px 40px white inset;
+    color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    background-color: rgb(19, 114, 192);
+    flex: 1 2 100px;
     justify-content: center;
     align-items: center;
 }
@@ -34,7 +104,8 @@ main {
     background-color: white;
 }
 
-h1 {
+h2 {
+    font-size: 2.3em;
     font-family: var(--font-cinzel);
     color: var(--bg-color);
     text-align: center;
@@ -54,14 +125,14 @@ form {
     gap: 20px;
 }
 
-.blocos {
+.blocos_input {
     display: flex;
     flex-direction: row;
     width: 100%;
     border: 1px solid var(--bg-color);
 }
 
-.blocos input {
+.blocos_input input {
     padding: 12px;
     width: 100%;
     border: none;
@@ -89,7 +160,7 @@ form {
     display: none;
 }
 
-button {
+.botao {
     background-color: var(--bg-color);
     color: white;
     padding: 12px;
@@ -99,7 +170,7 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.botao:hover {
     background-color: rgb(73, 73, 73);
 }
 
@@ -108,10 +179,24 @@ form p {
     font-size: 1em;
 }
 
-a {
+.cliqueAqui {
     color: var(--bg-color);
     text-decoration: none;
     font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer p {
+    font-size: 1em;
+    color: white;
 }
 
 

@@ -11,21 +11,37 @@
     <script src="../js/login.js" defer></script>
 </head>
 <body>
-    <header>
-        
+    <header class="blocos header">
+        <div class="icone-nome">
+            <a href="#"><img class="logo" src="../imagens/logo-teste.png" alt=""></a>
+            <h1 class="titulo">Dracomant</h1>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="menus">
+            <a class="fechado" href="./index.html">Home</a>
+            <a class="fechado" href="./curiosidades.html">Curiosidades</a>
+            <a class="fechado" href="./contato.html">Contato</a>
+            <a class="fechado" href="./ajuda.html">Ajuda</a>
+        </div>
+        <div class="botoes-login">
+            <button id="btn_login">Login</button>
+            <button id="btn_criar_login">Criar Login</button>
+        </div>
     </header>
     <main>
         <div class="bloco">
-            <h1>DRACOMANT</h1>
+            <h2>DRACOMANT</h2>
             <p>LOGIN</p>
             <form action="">
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="email" type="email" placeholder="Endereço de e-mail" required maxlength="30" autocomplete="email">
                     <span class="material-symbols-outlined icons">
                         mail
                     </span>
                 </div>
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="senha" type="password" placeholder="Senha:" required minlength="8" >
                     <span id="senhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
@@ -34,10 +50,13 @@
                         visibility
                     </span>
                 </div>
-                <button class="confirmar">ENTRAR</button>
-                <p>Não possui uma conta? <a href="criarLogin.html">Criar conta</a></p>
+                <button class="botao">ENTRAR</button>
+                <p>Não possui uma conta? <a href="criarLogin.html" class="cliqueAqui">Criar conta</a></p>
             </form>
         </div>
     </Main>
+    <footer class="blocos footer">
+        <p>Dracomant &copy; 2023</p>
+    </footer>
 </body>
 </html>

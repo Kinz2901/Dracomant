@@ -12,27 +12,43 @@
     <script src="../js/criarLogin.js" defer></script>
 </head>
 <body>
-    <header>
-        
+    <header class="blocos header">
+        <div class="icone-nome">
+            <a href="#"><img class="logo" src="../imagens/logo-teste.png" alt=""></a>
+            <h1 class="titulo">Dracomant</h1>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="menus">
+            <a class="fechado" href="./index.html">Home</a>
+            <a class="fechado" href="./curiosidades.html">Curiosidades</a>
+            <a class="fechado" href="./contato.html">Contato</a>
+            <a class="fechado" href="./ajuda.html">Ajuda</a>
+        </div>
+        <div class="botoes-login">
+            <button id="btn_login">Login</button>
+            <button id="btn_criar_login">Criar Login</button>
+        </div>
     </header>
     <main>
         <div class="bloco">
-            <h1>DRACOMANT</h1>
+            <h2>DRACOMANT</h2>
             <p>CRIE UMA CONTA</p>
             <form action="">
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="nome" type="text" placeholder="Nome do usuário" required  autocomplete="name">
                     <span class="material-symbols-outlined icons">
                         person
                     </span>
                 </div>
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="email" type="email" placeholder="Endereço de e-mail" required maxlength="30" autocomplete="email">
                     <span class="material-symbols-outlined icons">
                         mail
                     </span>
                 </div>
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="senha" type="password" placeholder="Senha:" required minlength="8" >
                     <span id="senhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
@@ -41,7 +57,7 @@
                         visibility
                     </span>
                 </div>
-                <div class="blocos">
+                <div class="blocos_input">
                     <input class="confirmSenha" type="password" placeholder="Confirmar Senha:" required minlength="8" autocomplete="current-password">
                     <span id="confirmSenhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
@@ -50,10 +66,13 @@
                         visibility
                     </span>
                 </div>
-                <button class="confirmar" onclick="confirmar()">CRIAR CONTA</button>
-                <p>Já possui uma conta? <a href="login.html">Clique aqui</a></p>
+                <button class="botao">CRIAR CONTA</button>
+                <p>Já possui uma conta? <a class="cliqueAqui" href="login.html">Clique aqui</a></p>
             </form>
         </div>
     </Main>
+    <footer class="blocos footer">
+        <p>Dracomant &copy; 2023</p>
+    </footer>
 </body>
 </html>
