@@ -72,7 +72,7 @@ function validatePassword(password) {
 }
 
 function resetFormStyles() {
-    Object.entries(userInputs).forEach(([key, value]) => {
+    Object.entries(inputs).forEach(([key, value]) => {
         value.classList.remove('success', 'error')
         document.querySelector(`#${key}-error`).textContent = ''
     })
