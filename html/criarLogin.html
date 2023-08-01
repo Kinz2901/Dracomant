@@ -50,7 +50,7 @@
                     </span>
                 </div>
                 <span class="err" id="email-error"></span>
-                <div class="blocos_input" id="bloco-senha">
+                <div class="blocos_input" id="bloco-password">
                     <input class="password" id="password" type="password" placeholder="Senha:" required minlength="8" >
                     <span id="senhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
@@ -60,8 +60,8 @@
                     </span>
                 </div>
                 <span class="err" id="password-error"></span>
-                <div class="blocos_input">
-                    <input class="confirmSenha" type="password" placeholder="Confirmar Senha:" required minlength="8" autocomplete="current-password">
+                <div class="blocos_input" id="bloco-passwordConfirm">
+                    <input class="passwordConfirm" id="passwordConfirm" type="password" placeholder="Confirmar Senha:" required minlength="8" autocomplete="current-password">
                     <span id="confirmSenhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
                     </span>
@@ -69,6 +69,7 @@
                         visibility
                     </span>
                 </div>
+                <span class="err" id="passwordConfirm-error"></span>
                 <button type="submit" class="botao">CRIAR CONTA</button>
                 <p>Já possui uma conta? <a class="cliqueAqui" href="login.html">Clique aqui</a></p>
             </form>
