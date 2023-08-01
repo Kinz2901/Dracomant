@@ -35,21 +35,23 @@
         <div class="bloco">
             <h2>DRACOMANT</h2>
             <p>CRIE UMA CONTA</p>
-            <form action="">
-                <div class="blocos_input">
-                    <input class="nome" type="text" placeholder="Nome do usuário" required  autocomplete="name">
+            <form>
+                <div class="blocos_input" id="bloco-nome">
+                    <input class="nome" id="name" type="text" placeholder="Nome do usuário" required  autocomplete="name">
                     <span class="material-symbols-outlined icons">
                         person
                     </span>
                 </div>
-                <div class="blocos_input">
-                    <input class="email" type="email" placeholder="Endereço de e-mail" required maxlength="30" autocomplete="email">
+                <span class="err" id="name-error"></span>
+                <div class="blocos_input" id="bloco-email">
+                    <input class="email" id="email" type="email" placeholder="Endereço de e-mail" required maxlength="30" autocomplete="email">
                     <span class="material-symbols-outlined icons">
                         mail
                     </span>
                 </div>
-                <div class="blocos_input">
-                    <input class="senha" type="password" placeholder="Senha:" required minlength="8" >
+                <span class="err" id="email-error"></span>
+                <div class="blocos_input" id="bloco-senha">
+                    <input class="password" id="password" type="password" placeholder="Senha:" required minlength="8" >
                     <span id="senhaOculta" class="material-symbols-outlined oculto icons">
                         visibility_off
                     </span>
@@ -57,6 +59,7 @@
                         visibility
                     </span>
                 </div>
+                <span class="err" id="password-error"></span>
                 <div class="blocos_input">
                     <input class="confirmSenha" type="password" placeholder="Confirmar Senha:" required minlength="8" autocomplete="current-password">
                     <span id="confirmSenhaOculta" class="material-symbols-outlined oculto icons">
@@ -66,7 +69,7 @@
                         visibility
                     </span>
                 </div>
-                <button class="botao">CRIAR CONTA</button>
+                <button type="submit" class="botao">CRIAR CONTA</button>
                 <p>Já possui uma conta? <a class="cliqueAqui" href="login.html">Clique aqui</a></p>
             </form>
         </div>

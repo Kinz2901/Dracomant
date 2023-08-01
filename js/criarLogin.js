@@ -1,6 +1,6 @@
 const senhaOculta = document.querySelector('#senhaOculta')
 const senhaVisivel = document.querySelector('#senhaVisivel')
-const senha = document.querySelector('.senha')
+const senha = document.querySelector('.password')
 
 const confirmSenhaOculta = document.querySelector('#confirmSenhaOculta')
 const confirmSenhaVisivel = document.querySelector('#confirmSenhaVisivel')
@@ -49,3 +49,61 @@ confirmSenhaVisivel.addEventListener('click', function () {
     }
 })
 
+function validateEmail(email) {
+    if (!email.match(/\w{2,}@[a-zA-Z]{2,}\.[a-zA-Z]{2,}/)) {
+        const err = new Error('Email inválido.')
+        err.input = 'email'
+        throw err
+    }
+}
+
+function validatePassword(password) {
+    if (
+        password.length < 8 || 
+        !password.match(/[a-z]/) || 
+        !password.match(/[A-Z]/) || 
+        !password.match(/[0-9]/) ||
+        !password.match(/[^a-zA-Z0-9\s]/)
+    ) {
+        const err = new Error('Senha inválida.')
+        err.input = 'password'
+        throw err
+    }
+}
+
+function resetFormStyles() {
+    Object.entries(userInputs).forEach(([key, value]) => {
+        value.classList.remove('success', 'error')
+        document.querySelector(`#${key}-error`).textContent = ''
+    })
+}
+
+const userInputs = {}
+
+userInputs.name = document.querySelector('#name')
+userInputs.email = document.querySelector('#email')
+userInputs.password = document.querySelector('#password')
+
+
+const inputs = {}
+
+inputs.name = document.querySelector('#bloco-nome')
+inputs.email = document.querySelector('#bloco-email')
+inputs.password = document.querySelector('#bloco-senha')
+
+const form = document.querySelector('form')
+
+form.addEventListener('submit', (ev) => {
+    ev.preventDefault()
+    resetFormStyles()
+    try {
+        inputs.name.classList.add('success')
+        validateEmail(userInputs.email.value)
+        inputs.email.classList.add('success')
+        validatePassword(userInputs.password.value)
+        inputs.password.classList.add('success')
+    } catch (err) {
+        inputs[err.input].classList.add('error')
+        document.querySelector(`#${err.input}-error`).textContent = err.message
+    }
+})

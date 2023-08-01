@@ -125,7 +125,7 @@ p {
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 6px;
 }
 
 .blocos_input {
@@ -170,7 +170,8 @@ form {
     cursor: pointer;
     border: var(--bg-color);
     transition: 0.2s;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 .botao:hover {
@@ -180,6 +181,12 @@ form {
 form p {
     margin: 0px;
     font-size: 1em;
+}
+
+.err {
+    color: #f64348;
+    font-size: .75rem;
+    margin: .25rem;
 }
 
 .cliqueAqui {
@@ -200,6 +207,13 @@ footer {
 footer p {
     font-size: 1em;
     color: white;
+}
+
+.error {
+    border: 1px solid #f64348;
+}
+.success {
+    border: 1px solid #43f67f;
 }
 
 
